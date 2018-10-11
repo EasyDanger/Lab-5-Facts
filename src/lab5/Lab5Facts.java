@@ -30,7 +30,7 @@ public class Lab5Facts {
 
 		// If statement will only accept inputs up to 20, because factorials larger
 		//than that can't be stored.
-		if ((userNum < 20) || (userNum > 1)) {
+		if ((userNum < 21) && (userNum > 0)) {
 
 			// 1 multiplied by the increasing value will yield the same as userNum!
 			for (long i = 1; i < (userNum + 1); i++) {
